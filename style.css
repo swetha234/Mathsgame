@@ -1,0 +1,197 @@
+html{
+    
+    height: 100%;
+    background: radial-gradient(circle, #fff, #F1FAFB  );
+    
+}
+
+#container{
+    height: 500px;
+    width: 550px;
+    background-color: #BAB5BC;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 0px #868188;
+    position: relative;
+    
+}
+
+#score{
+    
+    background-color: #F1CC6C;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+    left: 500px;
+    box-shadow: 0px 4px 0px 0px #DB9E00  ;
+    position: absolute;
+    color: white;
+     font-family:fantasy;
+    
+    
+}
+
+#correct{
+    
+    position: absolute;
+    left: 250px;
+    background-color: #6DE217  ;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    padding-top: 6px;
+     box-shadow: 0px 4px 0px 0px #50AC0C;
+    color: white;
+    font-family:fantasy;
+    display: none;
+}
+
+#wrong{
+    
+     position: absolute;
+     background-color: #EE5326    ;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    padding-top: 6px;
+     box-shadow: 0px 4px 0px 0px #C03B14;
+    color: white;
+     font-family:fantasy;
+    left: 250px;
+    display: none;
+    
+}
+
+#question{
+    
+    width: 450px;
+    height: 150px;
+    margin: 70px auto 10px auto;
+    background-color: #DDC2E7  ;
+    box-shadow: 0px 4px 0px 0px #917D99;
+    font-size: 100px;
+    text-align: center;
+    font-family:fantasy,sans-serif;
+    
+}
+
+#instruction{
+     width: 450px;
+    height: 30px;
+    margin: 20px auto 10px auto;
+    background-color: #9ACEF6      ;
+    box-shadow: 0px 4px 0px 0px #4C91C6  ;
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 15px;
+    color: black;
+}
+
+#choices{
+    
+    width: 450px;
+    height: 100px;
+    margin: 20px auto;
+    padding-left: 25px;
+    
+}
+
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 31px;
+    cursor: pointer;
+    border-radius: 3px;
+     box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 85px;
+    font-family: fantasy, sans-serif;
+    position: relative;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+     -ms-transition: all 0.3s;
+    
+    
+}
+
+.box:hover, #start:hover{
+    
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: :0px 4px #9C89F6;
+}
+
+.box:active{
+    
+    box-shadow: 0px 4px #9C89F6;
+    top: 4px;
+}
+#box4{
+    
+    margin-right: 0;
+}
+
+#operators{
+    
+    height: 20px;
+    width: 100px;
+    margin: px auto;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 2%;
+    
+    
+    
+}
+
+#start{
+    position: absolute;
+    left: 250px;
+    background-color: #F5C087    ;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+     box-shadow: 0px 4px rgbs(0, 0, 0, 0.2);
+    color: white;
+    font-family:fantasy;
+    cursor: pointer;
+    padding-top: 10px;
+    
+}
+
+#timeremaining{
+    
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 380px;
+    font-family: fantasy;
+    font-size: 20px;
+    top: 450px;
+    display: none;
+    }
+
+#gameover{
+    
+    height: 250px;
+    width: 500px;
+    background: linear-gradient(#F3CA6B, #F3706C);
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    left:45px;
+    z-index: 2;
+    display: none;
+}
+
+
+     
